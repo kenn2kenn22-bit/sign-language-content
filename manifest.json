@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.4.0",
+  "contentVersion": "0.5.0",
   "packs": [
     {
       "id": "lsf-fr",
@@ -40,7 +40,32 @@
         "es",
         "ar"
       ]
+    },
+    {
+      "id": "uasl-formal",
+      "signLanguage": "UASL-FORMAL",
+      "country": "ARAB_WORLD",
+      "status": "planned",
+      "mediaPath": "packs/uasl-formal",
+      "interfaceLanguages": [
+        "ar",
+        "en",
+        "fr"
+      ],
+      "scope": [
+        "news",
+        "education",
+        "administration",
+        "science",
+        "technology"
+      ]
     }
   ],
-  "notes": "Planned packs: LSF France, LSE Spain, Egyptian Sign Language Egypt, and ASL United States. Arabic content is limited to Egypt."
+  "notes": "UASL-FORMAL is a formal cross-border lexicon, not a universal natural sign language. The religious lexicon is written-only and excludes avatars and automatic Quran translation.",
+  "religiousLexicon": {
+    "path": "religious-lexicon/entries.json",
+    "status": "scaffold",
+    "avatarEnabled": false,
+    "automaticTranslationEnabled": false
+  }
 }
