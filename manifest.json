@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.2.0",
+  "contentVersion": "0.3.0",
   "packs": [
     {
       "id": "lsf-fr",
@@ -15,7 +15,19 @@
       "country": "ES",
       "status": "planned",
       "mediaPath": "packs/lse-es"
+    },
+    {
+      "id": "esl-eg",
+      "signLanguage": "ESL",
+      "country": "EG",
+      "status": "planned",
+      "mediaPath": "packs/esl-eg",
+      "interfaceLanguages": [
+        "ar",
+        "en",
+        "fr"
+      ]
     }
   ],
-  "notes": "Arabic is intentionally not included until a country or signing community is confirmed."
+  "notes": "Arabic content is limited to Egyptian Sign Language (Egypt) and is not a universal Arabic sign language pack."
 }
