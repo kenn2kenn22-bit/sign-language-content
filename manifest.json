@@ -1,6 +1,21 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.1.0",
-  "packs": [],
-  "notes": "Initialized before content production. No media is published yet."
+  "contentVersion": "0.2.0",
+  "packs": [
+    {
+      "id": "lsf-fr",
+      "signLanguage": "LSF",
+      "country": "FR",
+      "status": "planned",
+      "mediaPath": "packs/lsf-fr"
+    },
+    {
+      "id": "lse-es",
+      "signLanguage": "LSE",
+      "country": "ES",
+      "status": "planned",
+      "mediaPath": "packs/lse-es"
+    }
+  ],
+  "notes": "Arabic is intentionally not included until a country or signing community is confirmed."
 }
