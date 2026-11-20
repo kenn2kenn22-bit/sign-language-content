@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.3.0",
+  "contentVersion": "0.4.0",
   "packs": [
     {
       "id": "lsf-fr",
@@ -27,7 +27,20 @@
         "en",
         "fr"
       ]
+    },
+    {
+      "id": "asl-us",
+      "signLanguage": "ASL",
+      "country": "US",
+      "status": "planned",
+      "mediaPath": "packs/asl-us",
+      "interfaceLanguages": [
+        "en",
+        "fr",
+        "es",
+        "ar"
+      ]
     }
   ],
-  "notes": "Arabic content is limited to Egyptian Sign Language (Egypt) and is not a universal Arabic sign language pack."
+  "notes": "Planned packs: LSF France, LSE Spain, Egyptian Sign Language Egypt, and ASL United States. Arabic content is limited to Egypt."
 }
