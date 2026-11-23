@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/kenn2kenn22-bit/sign-language-content/main/schemas/asset-provenance.schema.json",
+  "title": "SignLearn Asset Provenance",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "packId",
+    "language",
+    "country",
+    "gloss",
+    "source",
+    "rights",
+    "linguisticReview",
+    "modifications"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "packId": {"type": "string"},
+    "language": {"type": "string"},
+    "country": {"type": "string"},
+    "gloss": {"type": "string"},
+    "meaning": {"type": "string"},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "version", "retrievedAt", "author"],
+      "properties": {
+        "title": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "version": {"type": "string"},
+        "doi": {"type": "string"},
+        "retrievedAt": {"type": "string", "format": "date"},
+        "author": {"type": "string"},
+        "fileSha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"}
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["license", "commercialUse", "imageConsent", "derivativeAnimation", "thirdPartyElements"],
+      "properties": {
+        "license": {"type": "string"},
+        "licenseUrl": {"type": "string", "format": "uri"},
+        "commercialUse": {"type": "boolean"},
+        "imageConsent": {"type": "boolean"},
+        "derivativeAnimation": {"type": "boolean"},
+        "thirdPartyElements": {"type": "boolean"},
+        "evidenceRef": {"type": "string"}
+      }
+    },
+    "linguisticReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "reviewedAt", "reviewerRole"],
+      "properties": {
+        "status": {"enum": ["approved", "approved-with-notes", "needs-correction", "rejected"]},
+        "reviewedAt": {"type": "string", "format": "date"},
+        "reviewerRole": {"type": "string"},
+        "notes": {"type": "string"}
+      }
+    },
+    "modifications": {"type": "array", "items": {"type": "string"}},
+    "attribution": {"type": "string"},
+    "mediaPath": {"type": "string"}
+  }
+}

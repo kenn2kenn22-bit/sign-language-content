@@ -1,0 +1,34 @@
+{
+  "id": "esl-eg-example-001",
+  "packId": "esl-eg",
+  "language": "ESL",
+  "country": "EG",
+  "gloss": "example",
+  "meaning": "Example meaning",
+  "source": {
+    "title": "Approved source title",
+    "url": "https://example.org/source",
+    "version": "1.0",
+    "retrievedAt": "2026-11-23",
+    "author": "Author or institution",
+    "fileSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "rights": {
+    "license": "Commercial permission or CC license",
+    "licenseUrl": "https://example.org/license",
+    "commercialUse": false,
+    "imageConsent": false,
+    "derivativeAnimation": false,
+    "thirdPartyElements": false,
+    "evidenceRef": "private-evidence/lot-id"
+  },
+  "linguisticReview": {
+    "status": "needs-correction",
+    "reviewedAt": "2026-11-23",
+    "reviewerRole": "Pending competent signer review",
+    "notes": "Template only; do not publish as media clearance."
+  },
+  "modifications": [],
+  "attribution": "Pending clearance",
+  "mediaPath": "packs/esl-eg/media/example.mp4"
+}

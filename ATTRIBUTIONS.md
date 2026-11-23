@@ -28,6 +28,7 @@ Les licences CC0, CC BY et les autorisations commerciales explicites peuvent êt
 - Aucune ressource officielle nommée UASL-FORMAL n’a été vérifiée. Ce pack reste une orientation de conception et ne doit pas être présenté comme une langue des signes arabe universelle.
 - Le candidat ESL-Égypte possède une checklist dédiée dans `packs/esl-eg/SOURCE_REVIEW.md`; aucune vidéo ne doit être copiée dans le dépôt avant la clôture de cette checklist.
 - Le lexique religieux est écrit uniquement ; aucun avatar, aucune vidéo générée automatiquement et aucune traduction automatique du Coran ne sont prévus.
+- Le schéma `schemas/asset-provenance.schema.json` formalise les champs minimaux de provenance, de consentement, de dérivé d’animation et de relecture linguistique ; il ne constitue pas une clearance à lui seul.
 
 ## Packs et portée
 
