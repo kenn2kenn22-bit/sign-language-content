@@ -22,7 +22,8 @@ Les licences CC0, CC BY et les autorisations commerciales explicites peuvent êt
 - L’avatar GLB est un asset original du projet SignLearn ; il n’est pas un contenu linguistique validé par une communauté sourde ou un enseignant natif.
 - Les premiers labels de démonstration de l’application ne constituent pas encore un dictionnaire pédagogique complet.
 - Aucun média externe de langue des signes ne doit être considéré comme publié tant que sa source et sa licence ne sont pas ajoutées ici et dans le manifeste correspondant.
-- L’audit du 22 novembre 2026 a identifié un candidat ESL-Égypte sous CC BY 4.0, mais ses droits à l’image et consentements doivent encore être vérifiés avant publication.
+- La revue approfondie du 23 novembre 2026 conclut qu’aucun des cinq packs n’est actuellement cleared pour une distribution commerciale : LSF, LSE et ASL-US nécessitent une licence ou autorisation compatible ; ESL-Égypte nécessite une preuve de consentement et de droits à l’image ; UASL-FORMAL n’est pas une direction linguistique vérifiée.
+- L’audit initial du 22 novembre 2026 avait identifié un candidat ESL-Égypte sous CC BY 4.0, mais ses droits à l’image et consentements restent à vérifier avant publication.
 - Les principales ressources LSF, LSE et ASL-US examinées sont non commerciales, limitées à la recherche ou juridiquement incertaines ; elles ne sont pas intégrées automatiquement.
 - Aucune ressource officielle nommée UASL-FORMAL n’a été vérifiée. Ce pack reste une orientation de conception et ne doit pas être présenté comme une langue des signes arabe universelle.
 - Le candidat ESL-Égypte possède une checklist dédiée dans `packs/esl-eg/SOURCE_REVIEW.md`; aucune vidéo ne doit être copiée dans le dépôt avant la clôture de cette checklist.
