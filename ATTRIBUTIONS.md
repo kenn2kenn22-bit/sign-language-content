@@ -25,6 +25,7 @@ Les licences CC0, CC BY et les autorisations commerciales explicites peuvent êt
 - L’audit du 22 novembre 2026 a identifié un candidat ESL-Égypte sous CC BY 4.0, mais ses droits à l’image et consentements doivent encore être vérifiés avant publication.
 - Les principales ressources LSF, LSE et ASL-US examinées sont non commerciales, limitées à la recherche ou juridiquement incertaines ; elles ne sont pas intégrées automatiquement.
 - Aucune ressource officielle nommée UASL-FORMAL n’a été vérifiée. Ce pack reste une orientation de conception et ne doit pas être présenté comme une langue des signes arabe universelle.
+- Le candidat ESL-Égypte possède une checklist dédiée dans `packs/esl-eg/SOURCE_REVIEW.md`; aucune vidéo ne doit être copiée dans le dépôt avant la clôture de cette checklist.
 - Le lexique religieux est écrit uniquement ; aucun avatar, aucune vidéo générée automatiquement et aucune traduction automatique du Coran ne sont prévus.
 
 ## Packs et portée
