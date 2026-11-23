@@ -6,21 +6,21 @@
       "id": "lsf-fr",
       "signLanguage": "LSF",
       "country": "FR",
-      "status": "planned",
+      "status": "source-review-required",
       "mediaPath": "packs/lsf-fr"
     },
     {
       "id": "lse-es",
       "signLanguage": "LSE",
       "country": "ES",
-      "status": "planned",
+      "status": "candidate-license-review",
       "mediaPath": "packs/lse-es"
     },
     {
       "id": "esl-eg",
       "signLanguage": "ESL",
       "country": "EG",
-      "status": "planned",
+      "status": "candidate-cc-by-rights-review",
       "mediaPath": "packs/esl-eg",
       "interfaceLanguages": [
         "ar",
@@ -32,7 +32,7 @@
       "id": "asl-us",
       "signLanguage": "ASL",
       "country": "US",
-      "status": "planned",
+      "status": "source-review-required",
       "mediaPath": "packs/asl-us",
       "interfaceLanguages": [
         "en",
@@ -45,7 +45,7 @@
       "id": "uasl-formal",
       "signLanguage": "UASL-FORMAL",
       "country": "ARAB_WORLD",
-      "status": "planned",
+      "status": "not-verified",
       "mediaPath": "packs/uasl-formal",
       "interfaceLanguages": [
         "ar",
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "notes": "UASL-FORMAL is a formal cross-border lexicon, not a universal natural sign language. The religious lexicon is written-only and excludes avatars and automatic Quran translation.",
+  "notes": "The audit found no verified public source named UASL-FORMAL. It remains a design scope only, not a published language resource. LSF, LSE and ASL-US require source or licence review; ESL-EG is a candidate CC BY source requiring rights-to-image and contributor clearance. The religious lexicon is written-only and excludes avatars and automatic Quran translation.",
   "religiousLexicon": {
     "path": "religious-lexicon/entries.json",
     "status": "scaffold",
