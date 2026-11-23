@@ -1,0 +1,15 @@
+{
+  "id": "esl-eg-pilot-example-001",
+  "language": "ESL",
+  "country": "EG",
+  "label": "Example only",
+  "category": "Greetings",
+  "level": 1,
+  "status": "blocked-pending-clearance",
+  "mediaUrl": null,
+  "sourceUrl": null,
+  "license": null,
+  "provenanceRef": "schemas/asset-provenance.example.json",
+  "linguisticReviewStatus": "pending",
+  "notes": "Template only. Not a real sign lesson and not approved for publication."
+}
