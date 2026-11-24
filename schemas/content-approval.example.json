@@ -1,0 +1,18 @@
+{
+  "assetId": "esl-eg-example-001",
+  "status": "needs-rights-review",
+  "rights": {
+    "commercialUse": false,
+    "imageConsent": false,
+    "thirdPartyCleared": false,
+    "derivativeScope": "none",
+    "evidenceRef": "pending-private-review"
+  },
+  "linguisticReview": {
+    "status": "pending",
+    "reviewerRef": "pending"
+  },
+  "attribution": "Pending clearance — do not publish as approved media",
+  "approvedAt": null,
+  "approvedBy": null
+}
